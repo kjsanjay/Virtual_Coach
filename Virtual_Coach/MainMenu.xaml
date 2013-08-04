@@ -1,0 +1,23 @@
+﻿<Window x:Class="Virtual_Coach.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainMenu" Height="700" Width="1068">
+    <Grid Background="#FFE5E5E5">
+        <ListBox Height="307" HorizontalAlignment="Left" Margin="41,75,0,0" Name="prescription_listbox" VerticalAlignment="Top" Width="602" FontSize="30" />
+        <ListBox Height="160" HorizontalAlignment="Left" Margin="41,472,0,0" Name="allExercises_listbox" VerticalAlignment="Top" Width="602" FontSize="30" />
+        <Rectangle Height="3" HorizontalAlignment="Left" Margin="0,406,0,0" Name="rectangle1" Stroke="Black" VerticalAlignment="Top" Width="675" Fill="Black" />
+        <Rectangle Height="661" HorizontalAlignment="Left" Margin="672,0,0,0" Name="rectangle2" Stroke="Black" VerticalAlignment="Top" Width="3" Fill="Black" />
+        <Label Content="Your Prescription:" Height="63" HorizontalAlignment="Left" Margin="21,8,0,0" Name="label1" VerticalAlignment="Top" Width="503" FontSize="40" FontWeight="Bold" Foreground="#FF0F8266" />
+        <Label Content="All Exercises:" FontSize="40" FontWeight="Bold" Foreground="#FF0F8266" Height="63" HorizontalAlignment="Left" Margin="21,406,0,0" Name="label3" VerticalAlignment="Top" Width="503" />
+        <Label Content="Name:" Height="38" HorizontalAlignment="Left" Margin="724,75,0,0" Name="label2" VerticalAlignment="Top" FontSize="20" Width="74" />
+        <Label Content="User Profile" FontSize="40" FontWeight="Normal" Foreground="Black" Height="63" HorizontalAlignment="Left" Margin="692,12,0,0" Name="label4" VerticalAlignment="Top" Width="231" />
+        <Label Content="Prescription Number:" FontSize="20" Height="36" HorizontalAlignment="Left" Margin="724,105,0,0" Name="label5" VerticalAlignment="Top" Width="199" />
+        <Label Content="Doctor:" FontSize="20" Height="38" HorizontalAlignment="Left" Margin="724,136,0,0" Name="label6" VerticalAlignment="Top" Width="74" />
+        <Button Content="Settings" Height="33" HorizontalAlignment="Left" Margin="815,196,0,0" Name="button1" VerticalAlignment="Top" Width="108" Background="White" BorderBrush="#FF0F8266" Foreground="#FF0F8266" FontSize="16" FontWeight="Bold" />
+        <Label Content="&lt;insert name here&gt;" FontSize="20" Height="38" HorizontalAlignment="Left" Margin="792,75,0,0" Name="name_label" VerticalAlignment="Top" Width="206" />
+        <Label Content="&lt;insert here&gt;" FontSize="20" Height="36" HorizontalAlignment="Left" Margin="918,107,0,0" Name="prescriptionNumber_label" VerticalAlignment="Top" Width="128" />
+        <Label Content="&lt;insert doc here&gt;" FontSize="20" Height="38" HorizontalAlignment="Left" Margin="800,136,0,0" Name="doctor_label" VerticalAlignment="Top" Width="206" />
+        <Button Background="White" BorderBrush="#FF0F8266" Content="Go!" FontSize="16" FontWeight="Bold" Foreground="#FF0F8266" Height="48" HorizontalAlignment="Left" Margin="490,320,0,0" Name="button2" VerticalAlignment="Top" Width="115" Click="button2_Click" />
+        <Button Background="White" BorderBrush="#FF0F8266" Content="Go!" FontSize="16" FontWeight="Bold" Foreground="#FF0F8266" Height="48" HorizontalAlignment="Left" Margin="490,568,0,0" Name="button3" VerticalAlignment="Top" Width="115" Click="button3_Click" />
+    </Grid>
+</Window>
